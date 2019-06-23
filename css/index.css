@@ -50,16 +50,16 @@
                     z-index: 1;
                     top: 0;
                     left: 0;
-                    
-                    overflow-y: hidden;
+                    overflow-y: auto;
                     transition: 0.5s;
                     display: none;
+                    background-color: rgba(0,0,0,0.7);
                 }
                 
                 .newPost-Content {
                     position: relative; 
-                    height: 100%;
-                    width: 100%;
+                    width: 70%;
+                    margin: 1% auto auto auto; 
                     text-align: left;
                     background-color: #fff;
                     font-family: 'Abel', sans-serif;
